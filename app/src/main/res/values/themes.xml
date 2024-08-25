@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.CSEWallah" parent="Base.Theme.CSEWallah" />
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowSplashScreenBackground">@color/yellow</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/csewallah</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/black</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+    </style>
 </resources>
